@@ -1,0 +1,8 @@
+# chromatic-index
+Take the input of the number of vertices ‘n’ and number of edges ‘e’.
+   Take the input of ‘e’ vertex pairs for the ‘e’ edges in the graph in edge[][].
+   Function ChromaticIndex(), Color the graph edges:
+   A) assign color to current edge as c.
+   B) If any of the adjacent edges have the same color then discard this color and go to flag again and try with next color.
+   C) Print the chromatic index of the cyclic graph.
+   Print the color of each edge
